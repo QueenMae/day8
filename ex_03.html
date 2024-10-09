@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<link rel="stylesheet" href="ex_03.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+    <title>Tutorial mode</title>
+</head>
+<body>
+    <div class="container">
+   <img src="https://via.placeholder.com/150" alt="Image Exemple" class="tooltip-target" data-tippy-content="Ceci est une image.">
+      <div class="square tooltip-target" data-tippy-content="Ceci est un carré.">
+</div>
+   <audio id="sound" src="Beyoncé - Love On Top Lyrics.mp3">
+</audio>
+       <button class="tooltip-target" data-tippy-content="Cliquez pour jouer le son !" onclick="playSound()">Jouer le Son</button>
+      <video width="320" height="240" controls class="tooltip-target" data-tippy-content="Ceci est une vidéo.">
+            <source src="Beyoncé - Love On Top Lyrics.mp4" type="video/mp4">
+        </video>
+   </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="ex_03/ex_03.js"></script>
+</body>
+</html>
