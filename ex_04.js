@@ -2,5 +2,5 @@ function makeTextDisappear() {
     $('p').fadeOut();
 }
 $(function() {
-    $('#makeDisappear').on('click', makeTextDisappear);
+    $('#Disparaît').on('click', Disparaît);
 });
